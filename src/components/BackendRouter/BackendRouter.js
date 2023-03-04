@@ -1,5 +1,5 @@
 var backendRoute = {
-    data : 'http://localhost:8000/api/'
+    data : 'http://api.imcseguridad.com/api/'
 }
 
 export default backendRoute;
