@@ -44,7 +44,7 @@
       <b-button v-if="botonesMenu" type="button" name="button" class="btn btn-danger" @click="findForm">Formulario Existente</b-button>
   
       <div class="row borde-top borde-left">
-        <div class="borde col-2"><img src="https://media.licdn.com/dms/image/C4D0BAQGGa3SCSlXvCg/company-logo_200_200/0/1659638029088?e=2147483647&v=beta&t=NU28cFMOVQE59Pw2dNUIc9swfqEh1iEnslPFOwjrwdc" class="brand_logo" alt="Logo"></div>
+        <div class="borde col-2"><img src="https://media.licdn.com/dms/image/C4D0BAQGGa3SCSlXvCg/company-logo_200_200/0/1659638029088?e=2147483647&v=beta&t=NU28cFMOVQE59Pw2dNUIc9swfqEh1iEnslPFOwjrwdc" class="brand_logo2" alt="Logo"></div>
         <div class="borde col-6">CONTROL DE EQUIPO EN OPERACIÓN (Trolleys, Food Box, Hornos, etc)</div>
         <div class="borde col-4">
           <div>PA-F-001</div>
@@ -1180,7 +1180,7 @@
   
   <style>
 
-  .brand_logo{
+  .brand_logo2{
     align-items: center;
     width: 80px;
     height: 80px;

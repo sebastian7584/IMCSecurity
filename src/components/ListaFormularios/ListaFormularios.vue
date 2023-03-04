@@ -435,12 +435,7 @@ import axios from 'axios'
     }
 </script>
 <style>
-  .brand_logo{
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    
-  }
+
   
   .borde {
     border-bottom: black 2px solid;
