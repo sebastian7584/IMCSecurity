@@ -1085,6 +1085,9 @@
         const path = backendRouter.data+'formularios/open'
         axios.post(path, {"consecutivo":this.formularioElegido['serial']}).then((response)=>{
           this.items = response.data
+          if (this.items.observaciones == undefined){
+            this.items.observaciones=[]
+          }
           this.isLoading = false
           this.mesagge = false
           this.botonesMenu = false
